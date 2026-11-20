@@ -1,0 +1,31 @@
+# iQOO Z7i UniXNU menu bring-up. The XNU payload is added after the menu and
+# storage paths are verified on this device.
+version = 1
+
+[boot]
+timeout = -1
+fallback_timeout = 86400
+
+[ui]
+title = "iQOO Z7i - Windows PE / UniXNU"
+
+[kits]
+autoload = false
+
+[[entry]]
+id = "exit"
+title = "Return to firmware"
+type = "action"
+action = "exit"
+
+[[entry]]
+id = "restart"
+title = "Restart"
+type = "action"
+action = "reset"
+
+[[entry]]
+id = "shutdown"
+title = "Power off"
+type = "action"
+action = "shutdown"

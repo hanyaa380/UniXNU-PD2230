@@ -1,0 +1,55 @@
+# Generated images and firmware
+/boot.img
+/dtbo.img
+/expdb.img
+/lk.img
+/lk2.img
+/misc.img
+/vbmeta*.img
+/vendor_boot.img
+
+# Build and diagnostic output
+/build/
+/dist/
+/downloads/
+
+# Packaged kernels, ramdisks and device trees are not distributed here
+/payload/EFI/UniXNU/Payloads/
+/payload/EFI/UniXNU/DeviceTree/
+/payload-minimal/EFI/UniXNU/Payloads/
+/payload-minimal/EFI/UniXNU/DeviceTree/
+
+# Common generated binary formats
+*.img
+*.bin
+*.elf
+*.o
+*.fd
+*.dtb
+*.dtbo
+*.gz
+*.zip
+*.7z
+*.tar
+*.tar.*
+*.so
+*.apk
+*.macho
+
+# Local caches and secrets
+.cache/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.jks
+id_rsa*
+
+# Editors
+.vscode/
+.idea/
+*~
+*.swp
